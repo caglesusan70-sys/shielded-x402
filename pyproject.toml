@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shielded-x402"
+version = "0.1.0"
+dependencies = ["fastapi", "starlette", "uvicorn", "httpx", "cryptography"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gateway*", "client_sdk*"]
