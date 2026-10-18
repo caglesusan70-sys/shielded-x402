@@ -1,0 +1,16 @@
+{
+  "name": "@shielded-x402/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for HTTP 402 Zcash Orchard Settlement",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": { "build": "tsc" },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
