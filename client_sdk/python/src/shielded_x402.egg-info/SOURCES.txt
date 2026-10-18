@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/shielded_x402/__init__.py
+src/shielded_x402/agent.py
+src/shielded_x402/memo.py
+src/shielded_x402/signer.py
+src/shielded_x402.egg-info/PKG-INFO
+src/shielded_x402.egg-info/SOURCES.txt
+src/shielded_x402.egg-info/dependency_links.txt
+src/shielded_x402.egg-info/requires.txt
+src/shielded_x402.egg-info/top_level.txt

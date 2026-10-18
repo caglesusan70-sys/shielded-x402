@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: shielded-x402
+Version: 0.1.0
+Summary: Client SDK for Privacy-Preserving HTTP 402 Zcash Settlement
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.24.0
+Requires-Dist: cryptography>=41.0.0
+Dynamic: license-file
+
+# shielded-x402
+Python Client SDK for HTTP 402 Zcash Settlement.
+
+pip install shielded-x402
