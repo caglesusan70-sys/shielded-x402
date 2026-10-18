@@ -5,3 +5,4 @@ __pycache__/
 *.db-wal
 gateway.sock
 node_modules/
+.env
